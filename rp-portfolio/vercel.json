@@ -1,7 +1,7 @@
 {
     "builds": [
       {
-        "src": "blog-porfolio/wsgi.py",
+        "src": "blog/wsgi.py",
         "use": "@vercel/python",
       }
     ],
@@ -9,7 +9,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "blog-portfolio/wsgi.py"
+        "dest": "blog/wsgi.py"
       }
     ]
-  }
+}
