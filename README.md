@@ -14,13 +14,17 @@ Clone the project
 Go to the project directory
 
 ```bash
+  cd blog-portfolio
+```
+
+```bash
   cd rp-portfolio
 ```
 
 Install dependencies
 
 ```bash
-  pip install requirements.txt
+  pip install -r requirements.txt
 ```
 
 Start the server
