@@ -27,6 +27,12 @@ Install dependencies
   pip install -r requirements.txt
 ```
 
+Make migrations
+
+```bash
+  python3 manage.py migrate
+```
+
 Start the server
 
 ```bash
