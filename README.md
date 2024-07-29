@@ -30,5 +30,5 @@ Install dependencies
 Start the server
 
 ```bash
-  python manage.py runserver
+  python3 manage.py runserver
 ```
