@@ -12,6 +12,7 @@ Welcome to my project! For this project, python was used for the backend and htm
   pip install -r requirements.txt
   
 3. Run the application:
-  python manage.py runserver
-
-4. Access the application through your web browser at http://localhost:8000.
+```bash
+python manage.py runserver
+```
+5. Access the application through your web browser at http://localhost:8000.
