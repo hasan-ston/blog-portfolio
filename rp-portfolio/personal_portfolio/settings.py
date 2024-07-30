@@ -61,12 +61,12 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'URL': 'postgresql://postgres:vfhGHthdqgyVKjwNiZhIZtDhPNVExjnr@postgres.railway.internal:5432/railway',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'vfhGHthdqgyVKjwNiZhIZtDhPNVExjnr',
-        'HOST': 'postgres.railway.internal',
-        'PORT': 5432,
+        'URL': os.getenv('postgresql://postgres:vfhGHthdqgyVKjwNiZhIZtDhPNVExjnr@postgres.railway.internal:5432/railway'),
+        'NAME': os.getenv('railway'),
+        'USER': os.getenv('postgres'),
+        'PASSWORD': os.getenv('vfhGHthdqgyVKjwNiZhIZtDhPNVExjnr'),
+        'HOST': os.getenv('postgres.railway.internal'),
+        'PORT': os.getenv('5432'),
     }
 }
 
