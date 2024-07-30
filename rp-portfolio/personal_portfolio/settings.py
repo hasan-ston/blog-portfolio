@@ -54,30 +54,11 @@ TEMPLATES = [
 WSGI_APPLICATION = 'personal_portfolio.wsgi.application'
 
 
-DATABASES = {
+DATABASES = {}
     # 'default': {
     #     'ENGINE': 'django.db.backends.sqlite3',
     #     'NAME': BASE_DIR / 'db.sqlite3',
     # }
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'URL': os.getenv('postgresql://postgres:vfhGHthdqgyVKjwNiZhIZtDhPNVExjnr@postgres.railway.internal:5432/railway'),
-    #     'NAME': os.getenv('railway'),
-    #     'USER': os.getenv('postgres'),
-    #     'PASSWORD': os.getenv('vfhGHthdqgyVKjwNiZhIZtDhPNVExjnr'),
-    #     'HOST': os.getenv('postgres.railway.internal'),
-    #     'PORT': os.getenv('5432'),
-    # }
-    'default': {
-    #     'ENGINE': "django.db.backends.postgresql_psycopg2"
-    #     'HOST': os.environ['HOST'],
-    #     'NAME': os.environ['NAME'],
-    #     'USER': os.environ['USER'],
-    #     'PASSWORD': os.environ['PASSWORD'],
-    #     'PORT': os.environ['PORT'],
-
-    # }
-}
 
 AUTH_PASSWORD_VALIDATORS = [
     {
