@@ -7,7 +7,8 @@ SECRET_KEY = 'django-insecure-iyk-p_a(%bf6cvdc+v6-7+uf*mzp7t8+0(!cj10+0%i$x9g5h6
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app', 'localhost']
+ALLOWED_HOSTS = ['.vercel.app', 'localhost', 'portfolio-0743.onrender.com'
+]
 
 
 INSTALLED_APPS = [
