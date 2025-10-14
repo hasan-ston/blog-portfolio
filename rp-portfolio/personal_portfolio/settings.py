@@ -7,8 +7,7 @@ SECRET_KEY = 'django-insecure-iyk-p_a(%bf6cvdc+v6-7+uf*mzp7t8+0(!cj10+0%i$x9g5h6
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app', 'localhost', 'portfolio-0743.onrender.com'
-]
+ALLOWED_HOSTS = ['.vercel.app', 'localhost', 'portfolio-0743.onrender.com','127.0.0.1']
 
 
 INSTALLED_APPS = [
@@ -55,21 +54,10 @@ TEMPLATES = [
 WSGI_APPLICATION = 'personal_portfolio.wsgi.application'
 
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'vmcXKjiuahNLpLtftfuubmgIedqpBCgL',
-        'HOST': 'postgres.railway.internal',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
