@@ -5,7 +5,7 @@ from django.conf import settings
 
 
 urlpatterns = [
-    path('admin/, admin.site.urls),
+    path('admin/', admin.site.urls),
     path('', include("projects.urls")),
     path('blog/', include("blog.urls")),
 
